@@ -4,8 +4,10 @@
 }
 
 header {
-    margin-bottom: 50px;
+    display: flex;
+    margin-bottom: 1rem;
     color: #ffffff;
+    align-items: center
 }
 
 html {
@@ -48,8 +50,11 @@ h2 {
     color: #f5f5f5;
     margin-left: 5px;
     margin-right: 5px;
-}
+    }
 
+.logo {
+    height: 7rem;
+}
 a {
     margin: 5 0 0 0;
     padding: 0px 10px 0px 0px
@@ -87,11 +92,13 @@ img {
 
 
 .main-nav {
+    justify-content: space-around;
+    flex-basis: 100rem;
     text-transform: uppercase;
     text-decoration-color: #ff0000;
     font-size: 100%;
     color: #fcf8f8;
-    word-spacing: 5px;
+    text-align: center;
 }
 
 .section-features {
@@ -106,6 +113,7 @@ img {
 }
 
 .slideshow {
+    display: flex;
     width: 100%;
     margin-left: 5%;
     margin-right: 20%;
@@ -164,6 +172,18 @@ img {
     padding: 20px 10px 10px 10px;
     width: 100%;
     background-color: whitesmoke
-    
 }
 
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
