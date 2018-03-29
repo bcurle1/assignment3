@@ -5,56 +5,6 @@
     <meta charset="utf-8">
     <title>Finger Lakes Instrumentation</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>  
-            #first {
-            width: 30%;
-            float: left;
-            height: 300%;
-            background-color: #f5f5f5;
-            margin-left: 5%;
-            margin-top: 45px;
-            border-style: solid;
-            border-color: #000000;
-            border-radius: 5%;
-            font-size: 80%;
-            }
-        #parent {
-            display: flex;
-        }
-             #camerabox {
-            width: 49%;
-            float: left;
-            border-style: groove;
-            border-width: thin;
-            border-color: #cc1a1a;
-            background-color: #f5f5f5;
-            }
-            #accesoriesbox {
-            width: 51%;
-            float:right;
-            border-style: groove;
-            border-width: thin;
-            border-color: #cc1a1a;
-            background-color: #f5f5f5;
-        }
-            #second {
-            width: 60%;
-            float: left;
-            height: 400px;
-            margin-right: 5%;
-            }
-            .news-headline {
-            margin-left: 5%;
-            text-decoration-line: underline;
-            padding: 10px 10px;
-            font-size: 20px;
-            color: #cc1a1a;
-            }
-        .inside-links {
-            color: white;
-        }
-        </style> 
-
 </head>
 
 <body>
@@ -74,8 +24,9 @@
             
         
         <h1 class="h1-title">Engineering Excellence</h1> <br>
-       <div id="container">
-            <div id="first">
+       <main>
+           <div id="first">
+            <div id="news">
                 <p class="news-headline"><strong>FLI News:</strong></p>
                 <div class="news-list">
                     <ul>
@@ -88,11 +39,12 @@
                     </ul>
                 </div>
             </div> <br>
-            <div id="second">
-                <img class="slideshow" src="images.html/nasapic1.jpg" alt="The Andromeda Galaxy" height="300">
+             <div id="image">
+                    <img class="slideshow" src="images.html/nasapic1.jpg" alt="The Andromeda Galaxy" height="300">
+             </div>
             </div>
-            <hr><br><br><br><br>
-           <div id="parent">
+            <br><br><br><br>
+           <div id="second">
             <div id="camerabox">
                 <h2 class="h2-style"><a class="inside-links" href="cameras.html">Cooled Cameras</a></h2>
                 <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainproline.png" alt="ProLine Cooled CCd Camera" width="150" height="122"/></a><p style= "padding-bottom: 30%">Proline</p></div>
@@ -103,7 +55,7 @@
             </div>
             <div id="accesoriesbox">
                 <h2 class="h2-style"><a class="inside-links">Accesories</a></h2>
-               <div style="float:left; padding:5% 0 0 5%;"><a><img src="images.html/mainhsfw.png" alt="High Speed Filter Wheels" width="110" height="105"/></a><p>High
+               <div style="float:left; padding:5% 0 0 2%;"><a><img src="images.html/mainhsfw.png" alt="High Speed Filter Wheels" width="110" height="105"/></a><p>High
                 Speed<br> Filter Wheels</p></div>
 
 
@@ -120,7 +72,7 @@
                 <p style="width: 100%"> Fax: (585) 624-9879</p>
                <p style="width: 100%">&copy;2015 Finger Lakes Instrumentation</p>
            </div>
-        </div>
+        </main>
         </div>
 </body>
 
